@@ -26,7 +26,6 @@ public class ReadBookServlet extends HttpServlet {    //本の登録画面
 	 * @see HttpServlet#doGet(HttpServletRequest request, HttpServletResponse response)
 	 */
 	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-
 		response.getWriter().append("Served at: ").append(request.getContextPath());
 	}
 
@@ -34,7 +33,6 @@ public class ReadBookServlet extends HttpServlet {    //本の登録画面
 	 * @see HttpServlet#doPost(HttpServletRequest request, HttpServletResponse response)
 	 */
 	protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-
 		doGet(request, response);
 	}
 
