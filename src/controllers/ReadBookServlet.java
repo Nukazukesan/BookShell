@@ -17,7 +17,7 @@ import utils.DBUtil;
  * Servlet implementation class ReadBookServlet
  */
 @WebServlet("/ReadBookServlet")
-public class ReadBookServlet extends HttpServlet {    //本の登録画面
+public class ReadBookServlet extends HttpServlet {
 	private static final long serialVersionUID = 1L;
 
     /**
