@@ -1,0 +1,13 @@
+@charset "UTF-8";
+
+
+.star {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    background-color: gray;
+  }
+
+.star.selected {
+    background-color: yellow;
+  }

@@ -27,7 +27,7 @@ public class Bookshell {
 	    @Column(name = "title", length = 255, nullable = false)
 	    private String title;
 
-	    @Column(name = "review", length = 255, nullable = false)
+	    @Column(name = "review", length = 255)
 	    private String review;
 
 	    @Column(name = "author", nullable = false)
@@ -36,8 +36,30 @@ public class Bookshell {
 	    @Column(name = "company", nullable = false)
 	    private String company;
 
+	    @Column(name = "readStatus")
+	    private String readStatus;
 
-	    public String getTitle() {
+		@Column(name = "star")
+	    private Long star;
+
+
+	    public String getReadStatus() {
+			return readStatus;
+		}
+
+		public void setReadStatus(String readStatus) {
+			this.readStatus = readStatus;
+		}
+
+		public Long getStar() {
+		    return star;
+		}
+
+		public void setStar(Long star) {
+			this.star = star;
+		}
+
+		public String getTitle() {
 	        return title;
 	    }
 
